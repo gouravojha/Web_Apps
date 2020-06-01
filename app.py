@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import webbrowser as wb
 
-st.title("Heart Disease Prediction!")
+st.title("Heart Disease Prediction")
 st.header("A person may or may not suffer from heart disease in future can be predicted")
 
-data = pd.read_csv("D:\Desktop\heart.csv")
+data = pd.read_csv("heart.csv")
 x = data['chol']
 y = data['trestbps']
 z = data['age']
